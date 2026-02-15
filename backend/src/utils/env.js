@@ -8,4 +8,7 @@ export const env = {
   MONGO_URI: process.env.MONGO_URI,
   JWT_SECRET: process.env.JWT_SECRET,
   JWT_EXPIRES_IN: process.env.JWT_EXPIRES_IN || "7d",
+  MAIL_USER: process.env.MAIL_USER,
+  MAIL_PASSWORD: process.env.MAIL_PASSWORD,
+  FRONTEND_URL: process.env.FRONTEND_URL
 };
