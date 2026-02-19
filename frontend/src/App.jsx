@@ -7,11 +7,13 @@ import Signup from './pages/Signup'
 import Login from './pages/Login'
 import Verfiy from './pages/Verfiy'
 import VerfiyEmail from './pages/VerfiyEmail'
+import Profile from './pages/Profile'
+import Footer from './components/Footer'
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <><Navbar/><Home/></>
+    element: <><Navbar/><Home/><Footer/></>
   },{
     path: '/signup',
     element: <><Signup/></>
@@ -27,6 +29,10 @@ const router = createBrowserRouter([
   {
     path: '/verify/:token',
     element: <><VerfiyEmail/></>
+  },
+  {
+    path: '/profile',
+    element: <><Navbar/><Profile/><Footer/></>
   },
   
 

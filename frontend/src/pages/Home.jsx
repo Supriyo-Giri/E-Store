@@ -1,8 +1,16 @@
+import FeaturesSection from '@/components/Features'
+import Hero from '@/components/Hero'
 import React from 'react'
+import BestSellingSection from '@/components/BestSellingSection'
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div>
+      <Hero/>
+      <FeaturesSection/>
+      <BestSellingSection/>
+
+    </div>
   )
 }
 
